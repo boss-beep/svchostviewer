@@ -1,5 +1,5 @@
-# svchostviewer
-Svchost Viewer is a Windows program that has been designed to reveal the services behind specific svchost.exe processes on machines running Windows.
+# Svchost Viewer
+A Windows program that has been designed to reveal the services behind specific svchost.exe processes on machines running Windows.
 
 The software program of choice to analyze processes is Process Explorer from Sysinternals (usually), and while it is the go-to program for many, its feature richness and functionality can be quite intimidating at first.
 
