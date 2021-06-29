@@ -14,7 +14,7 @@ The services under each svchost process are listed in the left pane, a click ope
 It details the amount of computer memory a svchost process is using as well as a description and program path of the services it has spawned.
 - No installation required.
 - Only requirement is that you have .net installed (ver 2.0 or newer).
-- Work in Windows XP (sp2) and Vista and Windows 7.
+- Work in Windows XP to latest Windows OS.
 - Coded in C#
 
 ![fb98b246-a57b-4b27-8570-742dbf9a945b](https://user-images.githubusercontent.com/74606519/123817989-e6c39b00-d8f8-11eb-85cb-d42a867c98a7.jpg)
