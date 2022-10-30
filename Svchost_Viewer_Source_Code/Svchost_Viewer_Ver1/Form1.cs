@@ -393,12 +393,24 @@ namespace Svchost_Viewer_Ver1
                     }
 
                     StreamWriter mySW = new StreamWriter(mySave.FileName);
-                    
+                    mySW.WriteLine("-----------------------------------------------------");
                     mySW.WriteLine("Report generated on : " + DateTime.Now);
+                    mySW.WriteLine("-----------------------------------------------------");
+                    mySW.WriteLine("");
+                    mySW.WriteLine("-----------------------------------------------------");
                     mySW.WriteLine("OS : " + WindowsVersion);
+                    mySW.WriteLine("-----------------------------------------------------");
+                    mySW.WriteLine("");
+                    mySW.WriteLine("-----------------------------------------------------");
                     mySW.WriteLine("Services running on " + Environment.MachineName + " : ");
                     mySW.WriteLine("-----------------------------------------------------");
-
+                    mySW.WriteLine("");
+                    mySW.WriteLine("");
+                    mySW.WriteLine("-----------------------------------------------------");
+                    mySW.WriteLine("Thx");
+                    mySW.WriteLine("Github.com/bylickilabs");
+                    mySW.WriteLine("-----------------------------------------------------");
+                    
                     int processes = 0;
                     int services = 0;
 
@@ -412,7 +424,7 @@ namespace Svchost_Viewer_Ver1
 
                         processes++;
                     }
-
+                    mySW.WriteLine("");
                     mySW.WriteLine("-----------------------------------------------------");
                     mySW.WriteLine("System is running : " + services.ToString() + " service(s)" + "\n" +
                                    " in a total of : " + processes.ToString() + " svchost.exe process(es)");
