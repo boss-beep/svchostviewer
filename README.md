@@ -19,6 +19,6 @@ It details the amount of computer memory a svchost process is using as well as a
 
 ![fb98b246-a57b-4b27-8570-742dbf9a945b](https://user-images.githubusercontent.com/74606519/123817989-e6c39b00-d8f8-11eb-85cb-d42a867c98a7.jpg)
 
-Click to get executible: <a href="https://github.com/boss-beep/svchostviewer/raw/Matrix/Svchost%20Viewer.exe">
+Click to get executible: <a href="https://github.com/boss-beep/svchostviewer/releases/download/download/Svchost.Viewer.exe">
   <button>Download</button>
 </a>
